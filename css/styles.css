@@ -1,0 +1,75 @@
+body{
+    min-height: 100%;
+    margin-top: 30px;
+    padding-left: 50px;
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+h2{
+    padding-top: 19px;
+    font-size: 30px;
+}
+
+#idperson {
+    height: 30px;
+    width: 130px;
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+.info-title{
+    border-top: 1px solid #fff;
+    width: 50%;
+}
+.info{
+   font-size: 27px; 
+}
+
+.checkbox{
+    height: 20px;
+    width: 30px;
+}
+
+.label{
+    font-size: 25px;
+    padding: 3px;
+}
+
+.result-content {
+    display: flex;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: rgba(149, 146, 146, 0.762);
+    box-shadow: 0 5px 30px rgb(255, 249, 249);
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.result-content p {
+    padding-left: 20px;
+}
+
+.div-btn{
+    padding: 20px;
+}
+
+
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+#img{
+    border-radius: 9px;
+}

@@ -11,40 +11,36 @@
 <body>
     <form action="" method="get">
         <h2>Buscar por Personagem:</h2>
-        <label>id do personagem</label>
+
+        <label class="label">id do personagem</label>
         <input type="number" id="idperson">
 
-        <hr>
-        <h2>Infomações</h2>
-        <input type="checkbox" name="name" id="name">
-        <label for="name">Nome</label>
+        <h2 class="info-title">Infomações</h2>
+        <input class="checkbox" type="checkbox" name="name" id="name">
+        <label class="info" for="name">Nome</label>
 
-        <input type="checkbox" name="status" id="status">
-        <label for="status">Status</label>
+        <input class="checkbox" type="checkbox" name="status" id="status">
+        <label class="info" for="status">Status</label>
 
-        <input type="checkbox" name="species" id="species">
-        <label for="species">Especie</label>
+        <input class="checkbox" type="checkbox" name="species" id="species">
+        <label class="info" for="species">Especie</label>
 
-        <input type="checkbox" name="gender" id="gender">
-        <label for="gender">Gênero</label>
+        <input class="checkbox" type="checkbox" name="gender" id="gender">
+        <label class="info" for="gender">Gênero</label>
 
-        <input type="checkbox" name="origin" id="origin">
-        <label for="origin">Origem</label>
+        <input class="checkbox" type="checkbox" name="origin" id="origin">
+        <label class="info" for="origin">Origem</label>
 
-        <input type="checkbox" name="image" id="image">
-        <label for="image">Personagem</label>
-
-        <input type="checkbox" name="location" id="location">
-        <label for="location">Local</label>
-
-        <input type="checkbox" name="episode" id="episode">
-        <label for="episode">Episodio</label>
-
-        <hr>
-
-        <button id="search-btn">Pesquisar!</button>
+        <input class="checkbox" type="checkbox" name="location" id="location">
+        <label class="info" for="location">Local</label>
+        <div class="div-btn">
+            <button class="btn" id="search-btn">Pesquisar</button>
+            <button class="btn" type="reset" id="reset">Limpar</button>
+        </div>
     </form>
-    <pre id="content"></pre>
-    <img src="" alt="" id="img">
+    <div id="result-content">
+        <img src="" alt="" id="img">
+        <div id="content"></div>
+    </div>
 </body>
 </html>
